@@ -1,11 +1,12 @@
 ### Project Overview
+---
 <br/>
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. All the data is in JSON format and they would like to have a Postgres database with star schema data modelling to optimize the queries for analysis and bulid ETL pipeline using python.They are particularly interested in understanding what songs users are listening to.
 
 <br/>
 
 ### Database Schema
-
+---
 <br/>
 
 ##### Fact Table
@@ -41,7 +42,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 <br/>
 
 ### ETL Pipeline
-
+---
 <br/>
 
 1. Extracted the necessary columns from the JSON files.
@@ -51,7 +52,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 <br/>
 
 ### Project Files
-
+---
 <br/>
 
 * **create_tables.py** - it contains code for setting up the database *sparkifydb* and tables.
@@ -63,7 +64,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 <br/>
 
 ### How To Run
-
+---
 <br/>
 
 Run the following code in sequence to get perform the ETL 
@@ -74,7 +75,7 @@ Run the following code in sequence to get perform the ETL
 <br/>
 
 ### References
-
+---
 <br/>
 
 * [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
