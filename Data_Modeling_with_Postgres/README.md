@@ -19,6 +19,7 @@ A single events json file looks like:
 
 
 ## **Database Schema**
+Here we have considered **star schema** for data modeling because we are focused on analysing the data ie.. more read operations. 
 
 #### **Fact Table**
 
